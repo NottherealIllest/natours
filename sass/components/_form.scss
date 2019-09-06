@@ -40,7 +40,7 @@
         transform: translateY(-4rem);
     }
     &__radio-group {
-        widows: 49%;
+        width: 49%;
         display: inline-block;
     }
     &__radio-label {
@@ -56,8 +56,8 @@
         border-radius: 50%;
         display: inline-block;
         position: absolute;
-        left: 0;
-        top: -.1rem;
-        &::after {}
+        left: -2.4rem;
+        top: -0.6rem;
+        /* &::after {} */
     }
 }
